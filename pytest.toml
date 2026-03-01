@@ -1,0 +1,12 @@
+[pytest]
+minversion = "9.0"
+
+# Fixes your import error by telling Pytest your app code is in the current directory
+pythonpath = ["."] 
+
+# Tells Pytest to only look for tests in the tests/ folder (ignoring the rest of your app)
+testpaths = ["tests"]
+
+# (Optional) "-ra" shows a summary of non-passing tests at the end
+# "-q" makes the terminal output quieter and less cluttered
+addopts = ["-ra", "-q"]

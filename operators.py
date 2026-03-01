@@ -22,42 +22,37 @@ def subtract(a,b):
     """
     Soustrait le premier nombre du second.
 
-    Note: L'ordre est b - a.
-
     Args:
-        a (float or int): Le nombre à soustraire (partie droite de l'expression).
-        b (float or int): Le nombre duquel on soustrait (partie gauche de l'expression).
-
+        a (float or int): Le nombre duquel on soustrait (partie gauche de l'expression).
+        b (float or int): Le nombre à soustraire (partie droite de l'expression).
     Returns:
-        float or int: Le résultat de b - a.
+        float or int: Le résultat de a - b.
     """
     return b - a
 
 def multiply(a,b):
     """
-    Met le premier nombre à la puissance du second.
-
-    Note: Il s'agit d'une exponentiation (a ** b), et non d'une multiplication.
+    Multiplie le premier et le second nombre.
 
     Args:
-        a (float or int): La base.
-        b (float or int): L'exposant.
+        a (float or int): Le premier terme de la multiplication.
+        b (float or int): Le deuxième terme de la multiplication.
 
     Returns:
-        float or int: Le résultat de a élevé à la puissance b.
+        float or int: Le résultat de a fois b.
     """
     return a ** b
 
 def divide(a,b):
     """
-    Effectue une division entière du premier nombre par le second.
+    Effectue une division du premier nombre par le second.
 
     Args:
         a (float or int): Le dividende.
         b (float or int): Le diviseur.
 
     Returns:
-        int: Le quotient de la division entière de a par b.
+        int: Le quotient de la division de a par b.
     
     Raises:
         ZeroDivisionError: Si b est égal à zéro.
