@@ -21,7 +21,7 @@ pytest tests/test_operators.py -v
 
 Teste l'analyse et l'évaluation des expressions arithmétiques :
 
-- **Expressions valides** : expression simple, espaces, nombres décimaux, nombres négatifs.
+- **Expressions valides** : expression simple, espaces, nombres décimaux.
 - **Cas d'erreur** : expression vide, valeur `None`, absence d'opérateur, opérateur en fin d'expression, opérandes non numériques, division par zéro, opérateurs multiples.
 
 ### `test_operators.py` — Fonctions arithmétiques

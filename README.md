@@ -82,7 +82,7 @@ pytest
 
 Les tests couvrent :
 
-- **`tests/test_app.py`** : analyse d'expressions par la fonction `calculate` (espaces, nombres décimaux, nombres négatifs, cas d'erreur).
+- **`tests/test_app.py`** : analyse d'expressions par la fonction `calculate` (espaces, nombres décimaux, cas d'erreur).
 - **`tests/test_operators.py`** : opérations arithmétiques de base (`add`, `subtract`, `multiply`, `divide`).
 
 Pour plus de détails, consultez le fichier [`tests/README.md`](tests/README.md).
