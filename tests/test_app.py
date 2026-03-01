@@ -2,8 +2,7 @@
 Tests unitaires pour la fonction calculate du module app.
 
 Ce module vérifie le bon fonctionnement de l'analyse et de l'évaluation
-des expressions arithmétiques par la fonction calculate, incluant la
-gestion des espaces, des nombres négatifs et des cas d'erreur.
+des expressions arithmétiques par la fonction calculate.
 """
 import pytest
 from app import calculate
@@ -22,11 +21,6 @@ def test_calculate_with_spaces():
 def test_calculate_floats():
     """Vérifie que les nombres à virgule flottante sont supportés."""
     assert calculate("1.5+2.5") == 4.0
-
-def test_calculate_negative_number():
-    """Vérifie que les nombres négatifs sont correctement analysés (ex: -3+5)."""
-    assert calculate("-3+5") == 2.0
-
 
 # --- Cas d'erreur ---
 

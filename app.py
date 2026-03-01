@@ -26,9 +26,6 @@ def calculate(expr: str):
     L'expression doit contenir deux opérandes numériques et un seul opérateur
     parmi +, -, *, /. Les espaces dans l'expression sont ignorés.
 
-    Note: le `-` d'un nombre négatif est considéré comme une partie de ce nombre.
-    Ex: "-1+2" est interprété comme "-1 + 2".
-
     Args:
         expr (str): La chaîne de caractères représentant l'expression à évaluer.
 
